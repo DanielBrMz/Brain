@@ -1,0 +1,169 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Daniel Alfredo Barreras Meraz} \\ \vspace{1pt}
+    \small +52 642-114-6724 $|$ \href{mailto:danielbarreras.ab@hotmail.com}{\underline{danielbarreras.ab@hotmail.com}} $|$ 
+    \href{https://linkedin.com/in/danielbrmz}{\underline{linkedin.com/in/danielbrmz}} $|$
+    \href{https://github.com/DanielBrMz}{\underline{github.com/DanielBrMz}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Research Engineer}{Aug. 2025 -- Present}
+      {Harvard Medical School - Boston Children's Hospital}{Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Engineered production-scale Python pipeline processing distributed datasets across 6 global medical sites, implementing automated ETL workflows with Docker containerization for 10,000+ volumetric medical samples.}
+        \resumeItem{Built scalable data processing infrastructure reducing batch processing time 75\% (3-5 hours to 30-60 minutes) through parallel processing, caching strategies, and workflow optimization across distributed systems.}
+        \resumeItem{Orchestrated 8-stage automated workflow for multi-site data acquisition, validation, and processing under strict regulatory compliance (HIPAA, IRB protocols), ensuring data integrity and audit trails for clinical research.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sr Full Stack Engineer}{Nov. 2023 -- Present}
+      {Sidepocket Inc}{San Francisco, CA (Remote)}
+      \resumeItemListStart
+        \resumeItem{Spearheaded architecture and mentored 3 engineers while scaling microservices from 2K to 15K users via Flask/Spring Boot design, maintaining 99.9\% uptime and cutting infrastructure costs 30\%.}
+        \resumeItem{Delivered high-throughput RESTful APIs handling 2M+ daily transactions with sub-200ms latency via PostgreSQL tuning, Redis caching, and distributed system patterns.}
+        \resumeItem{Transformed CI/CD deployment on AWS ECS, eliminating 85\% manual overhead through infrastructure-as-code practices enabling 5x faster releases.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Database Administrator}{Jun. 2024 -- Aug. 2025}
+      {Ciena Corp}{Zapopan, MX}
+      \resumeItemListStart
+        \resumeItem{Developed Python-based workflow automation with AWS CloudWatch integration, eliminating 70\% manual operations while processing 10M+ daily records across Oracle EBS infrastructure.}
+        \resumeItem{Accelerated mission-critical PL/SQL queries 45\% (2.1s to 800ms response) by applying indexing strategies, execution plan analysis, and query refactoring across distributed databases.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Developer}{Feb. 2021 -- Nov. 2023}
+      {Molina Group}{Hermosillo, MX}
+      \resumeItemListStart
+        \resumeItem{Launched Spring Boot microservices supporting 1,200+ geospatially-distributed vineyard locations, generating \$200K+ annual revenue increase through 30\% operational efficiency gains via workflow automation.}
+        \resumeItem{Built Next.js frontend with optimized React components and visualization libraries, boosting geospatial rendering performance 50\% and improving user engagement 40\%.}
+        \resumeItem{Secured enterprise authentication infrastructure using OAuth2 and AWS Cognito for 600+ users, achieving SOC 2 compliance and establishing role-based access control.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------AI/ML PROJECTS-----------
+\section{Research \& ML Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\href{https://github.com/jbric16/FlameForecast_Project}{\textbf{Phoenix Eye: AI Wildfire Detection}} $|$ \emph{Python, TensorFlow, React.js, Azure}}{Sep. 2023 -- Dec. 2024}
+          \resumeItemListStart
+            \resumeItem{Delivered geospatial ML application achieving 95\% detection accuracy across 50,000+ satellite images. NASA Space Apps Global Finalist (Top 40/5,000+ teams) and Dubai Prototypes for Humanity 2024 Finalist.}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tecnológico de Monterrey (ITESM)}{Guadalajara, MX}
+      {B.S. in Computer Science and Technology, GPA: 98/100}{}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript/TypeScript, C++, Go, PL/SQL, MATLAB, R, Scala} \\
+     \textbf{ML \& AI}{: PyTorch, TensorFlow, Computer Vision, Deep Learning, Geospatial Analysis, NLP, scikit-learn} \\
+     \textbf{Backend}{: Spring Boot, Flask, FastAPI, Microservices, Distributed Systems, RESTful APIs, GraphQL} \\
+     \textbf{Cloud \& DevOps}{: AWS (ECS, Lambda, RDS, S3, CloudWatch, EC2), Docker, Kubernetes, CI/CD, Terraform} \\
+     \textbf{Databases}{: PostgreSQL, MongoDB, Oracle, DynamoDB, Redis, Workflow Automation, ETL Pipelines} \\
+     \textbf{Frontend}{: React, Next.js, Vue.js, D3.js, Geospatial Visualization, HTML5/CSS3}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

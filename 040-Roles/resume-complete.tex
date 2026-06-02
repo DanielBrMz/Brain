@@ -1,0 +1,180 @@
+%-------------------------
+% Complete Resume - Daniel Alfredo Barreras Meraz
+% Contains ALL experience, projects, certifications
+% Use this as the master source; create tailored versions by commenting out sections
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Daniel Alfredo Barreras Meraz} \\ \vspace{1pt}
+    \small 617-685-9017 $|$ \href{mailto:danielbarreras.ab@hotmail.com}{\underline{danielbarreras.ab@hotmail.com}} $|$
+    \href{https://linkedin.com/in/danielbrmz}{\underline{linkedin.com/in/danielbrmz}} $|$
+    \href{https://github.com/DanielBrMz}{\underline{github.com/DanielBrMz}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tecnol\'ogico de Monterrey (ITESM)}{Guadalajara, MX}
+      {B.S. in Computer Science and Technology, GPA: 98/100}{Expected Graduation: Dec. 2026}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    % ===== CAPITAL ONE =====
+    \resumeSubheading
+      {Lead Software Engineer, Full Stack}{Jun. 2026 -- [Incoming]}
+      {Capital One, Enterprise Platforms Technology}{Mexico City, MX}
+      \resumeItemListStart
+        \resumeItem{Lead a team of engineers building distributed microservices and full-stack systems across Capital One's enterprise platforms, delivering cloud-native AWS solutions serving millions of customers.}
+        \resumeItem{Drive technical direction and mentor engineers, collaborating with product managers to translate regulatory and customer needs into scalable architecture.}
+        \resumeItem{Design distributed event-driven systems using Java, Kafka, and Kinesis for high-throughput financial data processing at enterprise scale.}
+        \resumeItem{Spearhead adoption of container orchestration (Docker, Kubernetes) and open-source frameworks to modernize deployment workflows and accelerate delivery cycles.}
+      \resumeItemListEnd
+
+    % ===== BCH / HMS =====
+    \resumeSubheading
+      {Research Engineer}{Jul. 2025 -- Present}
+      {Harvard Medical School -- Boston Children's Hospital (FNNDSC)}{Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Designed and trained FetEnhNet, a tissue-conditioned deep learning architecture for fetal MRI enhancement, achieving +4.48 dB PSNR across 10,000+ volumetric samples from 6 global sites.}
+        \resumeItem{Built production-scale ETL pipeline reducing batch processing time 75\% via parallel processing and Docker containerization, under strict HIPAA/IRB compliance.}
+        \resumeItem{Developed ActivSparse-SLM, a 125M sparse LLM combining SLTrain, DeepSeekMoE, and Wanda pruning — 50\% FFN weight sparsity with only +0.3\% perplexity degradation.}
+        \resumeItem{Adapted IGUANe CycleGAN from adult T1 to fetal T2-weighted MRI for cross-site scanner harmonization across 6 global acquisition protocols.}
+      \resumeItemListEnd
+
+    % ===== SIDEPOCKET =====
+    \resumeSubheading
+      {Sr Full Stack Engineer}{Nov. 2023 -- Dec. 2025}
+      {Sidepocket Inc}{San Francisco, CA (Remote)}
+      \resumeItemListStart
+        \resumeItem{Scaled fintech microservices from 2K to 15K users handling 2M+ daily transactions at sub-200ms latency, maintaining 99.9\% uptime and cutting infrastructure costs 30\%.}
+        \resumeItem{Eliminated 85\% CI/CD manual overhead via infrastructure-as-code on AWS ECS; mentored 3 engineers through rapid team growth.}
+        \resumeItem{Architected Redis-to-S3 Parquet migration across 8 microservices, replacing ElastiCache for cost reduction and improved query flexibility.}
+        \resumeItem{Designed server-side filtered cache endpoints reducing wire transfer from 60MB to matching rows only, improving high-frequency portfolio query performance.}
+      \resumeItemListEnd
+
+    % ===== CIENA =====
+    \resumeSubheading
+      {Database Administrator}{Jun. 2024 -- Aug. 2025}
+      {Ciena Corp}{Zapopan, MX}
+      \resumeItemListStart
+        \resumeItem{Developed Python-based workflow automation with AWS CloudWatch integration, eliminating 70\% manual operations while processing 10M+ daily records across Oracle EBS infrastructure.}
+        \resumeItem{Accelerated mission-critical PL/SQL queries 45\% (2.1s to 800ms) by applying indexing strategies, execution plan analysis, and query refactoring across distributed databases.}
+        \resumeItem{Designed real-time database health monitoring and alerting pipelines via AWS CloudWatch, enabling proactive detection of performance regressions across critical Oracle EBS modules.}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH & ML PROJECTS-----------
+\section{Research \& ML Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\href{https://github.com/jbric16/FlameForecast_Project}{\textbf{Phoenix Eye: AI Wildfire Detection}} $|$ \emph{Python, TensorFlow, Next.js, Mapbox, Azure}}{Sep. 2023 -- Dec. 2024}
+      \resumeItemListStart
+        \resumeItem{Trained a multi-class CNN on 50,000+ MODIS/Landsat satellite images achieving 95\% wildfire detection accuracy; integrated real-time geospatial inference with Mapbox GL 3D terrain rendering and time-control playback on a Next.js frontend.}
+        \resumeItem{Deployed end-to-end on Azure with real-time alert pipelines; recognized as NASA Space Apps Global Finalist (Top 40 / 5,000+ teams) and Dubai Prototypes for Humanity 2024 Finalist.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript/TypeScript, C++, Go, Rust, PL/SQL, MATLAB, R, Scala} \\
+     \textbf{ML \& AI}{: PyTorch, TensorFlow, Computer Vision, Deep Learning, Geospatial Analysis, NLP, scikit-learn, nibabel} \\
+     \textbf{Backend}{: Spring Boot, Flask, FastAPI, Microservices, Distributed Systems, RESTful APIs, GraphQL, ZeroRPC} \\
+     \textbf{Cloud \& DevOps}{: AWS (ECS, Lambda, RDS, S3, CloudWatch, EC2), Docker, Kubernetes, CI/CD, Terraform, OCI} \\
+     \textbf{Databases}{: PostgreSQL, MongoDB, Oracle (EBS, PL/SQL), DynamoDB, Redis, Workflow Automation, ETL Pipelines} \\
+     \textbf{Frontend}{: React, Next.js, Vue.js, D3.js, Mapbox, Geospatial Visualization, HTML5/CSS3}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": []
+  },
+  "enabledPlugins": {
+    "slack@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "obsidian@obsidian-skills": true,
+    "everything-claude-code@everything-claude-code": true,
+    "clangd-lsp@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "obsidian-skills": {
+      "source": {
+        "source": "github",
+        "repo": "kepano/obsidian-skills"
+      }
+    },
+    "everything-claude-code": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code"
+      }
+    }
+  },
+  "skipAutoPermissionPrompt": true,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "includeCoAuthoredBy": false
+}

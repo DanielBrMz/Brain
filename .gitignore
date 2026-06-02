@@ -1,0 +1,69 @@
+# Obsidian
+.obsidian/
+.trash/
+
+# ============================================================
+# SENSITIVE — Claude Code project-level config
+# ============================================================
+# .mcp.json contains API tokens (Jira, etc.)
+.mcp.json
+
+# settings.local.json contains SSH passwords in allowed-commands
+.claude/settings.local.json
+
+# Memory, sessions, credentials (contain passwords, personal IDs, API keys)
+.claude/projects/
+.claude/paste-cache/
+.claude/session-data/
+.claude/sessions/
+.claude/homunculus/
+.claude/.credentials.json
+.claude/history.jsonl
+.claude/policy-limits.json
+.claude/cache/
+.claude/marketplace.json
+.claude/plugin.json
+.claude/PLUGIN_SCHEMA_NOTES.md
+
+# ============================================================
+# Large installed content (reinstall via setup.sh)
+# ============================================================
+.claude/plugins/
+.claude/.opencode/
+.claude/.cursor/
+.claude/.codex/
+.agents/skills/
+
+# ============================================================
+# Vault files with hardcoded secrets (keep local only)
+# ============================================================
+020-Infrastructure/bch-cluster.md
+020-Infrastructure/servers-index.md
+030-Projects/sidepocket-infrastructure.md
+060-Life/capital-one-onboarding.md
+
+# Binary data (bloat)
+data/
+
+# ============================================================
+# OS / Editor / Build artifacts
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+csv
+
+# ============================================================
+# Secrets — never commit
+# ============================================================
+*.pem
+*.key
+.env
+.env.*
+!.env.example
