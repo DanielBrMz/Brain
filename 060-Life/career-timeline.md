@@ -16,11 +16,10 @@ See also: [[daniel-profile|Profile]], [[goals|Career Goals]]
 
 ## Active Roles
 
-### Research Engineer -- BCH/HMS FNNDSC (Aug 2025 -- Jul 2026)
-- Harvard Medical School / Boston Children's Hospital, Boston, MA
-- Fetal MRI deep learning research under Dr. Kiho Im
-- BCH ID: 271443, Desk: LM6546.3, 6th Floor, Landmark Building
-- Full details: [[../040-Roles/research-engineer-bch|Research Engineer Role Note]]
+### Lead Software Engineer -- Capital One (May 2026 -- Present)
+- Mexico City
+- $144K USD/year
+- Started May 25, 2026 at age 21
 
 ### Sr Full Stack Engineer -- Sidepocket Inc (Nov 2023 -- Present)
 - San Francisco, CA (remote)
@@ -30,16 +29,13 @@ See also: [[daniel-profile|Profile]], [[goals|Career Goals]]
 
 ---
 
-## Upcoming
-
-### Backend Software Engineer Intern -- Lyft (Jun -- Sep 2026)
-- Mexico City, Autonomous Vehicles team
-- Recruiter: Vivian Chen
-- Connects ML/distributed systems background to commercial AV application
-
----
-
 ## Previous Roles
+
+### Research Engineer -- BCH/HMS FNNDSC (Aug 2025 -- May 2026)
+- Harvard Medical School / Boston Children's Hospital, Boston, MA
+- Fetal MRI deep learning research under Dr. Kiho Im
+- BCH ID: 271443, Desk: LM6546.3, 6th Floor, Landmark Building
+- Full details: [[../040-Roles/research-engineer-bch|Research Engineer Role Note]]
 
 ### Software Engineer Intern -- Oracle (Feb 2025 -- Aug 2025)
 - Zapopan, MX (on-site) | 7 months
@@ -71,12 +67,12 @@ See also: [[daniel-profile|Profile]], [[goals|Career Goals]]
 
 ---
 
-## Processes in Progress (as of Mar 2026)
+## Resolved Processes
 
-- **Capital One:** Advanced to Power Day (four interviews, final stage). Outcome pending.
-- **HackPrinceton:** Applied for Spring 2026.
-- **Puentes:** Demo video preparation for Gadi (proactive outreach from their side).
-- **FNNDSC Symposium:** 3-minute talk + 5 slides, April 2026.
+- **Capital One:** Offer received April 2026, accepted. Lead SWE, started May 25.
+- **Lyft internship:** Declined June 6, 2026 (should have been declined in April). Withdrew 9 days before start date.
+- **BCH/FNNDSC:** Completed May 22, 2026.
+- **FNNDSC Symposium:** April 2026 (completed).
 
 ---
 

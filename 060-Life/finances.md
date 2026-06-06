@@ -2,7 +2,7 @@
 title: "Finances"
 type: life
 created: 2026-03-19
-updated: 2026-03-21
+updated: 2026-06-06
 tags: [life, finances]
 ---
 
@@ -12,18 +12,25 @@ tags: [life, finances]
 
 ## Overview
 
-Self-funded stay in Boston. No financial help from family. Savings-based while at Harvard, salary income from Sidepocket.
+Self-funded throughout. No financial help from family. Combined income of $177,280/year as of June 2026 (Capital One + Sidepocket). Now based in Mexico City with significantly lower cost of living than Boston.
 
 ## Income
 
 | Source | Type | Amount | Notes |
 |--------|------|--------|-------|
-| Sidepocket Inc | Salary | $2,500/month | Sr Full Stack Engineer (remote) |
+| Capital One | TC | $160,000/year | Lead SWE, Mexico City, started May 25 2026 (base + stocks + benefits, pre-tax) |
+| Sidepocket Inc | Hourly | $37,440/year | Sr Full Stack Engineer (remote), $18/hr × 40hrs (tentative rate) |
+| **Combined** | | **~$197,000/year** | At age 21, before graduation |
+
 | Ciena Corp | Salary (past) | $600/month | DBA role, ended Aug 2025 |
 
-## Monthly Expenses (Boston)
+### Promotion Target (Jun 2027)
+- Sr Lead SWE at Capital One: +$25K/year = $185K TC
+- Combined with SP ($18/hr): **~$222K/year at age 22**
 
-Approximately $1,800/month covering rent, food, and living expenses in Cambridge.
+## Monthly Expenses (Mexico City)
+
+FILL-IN -- relocated from Boston ($1,800/mo) to CDMX May 2026. Cost of living significantly lower.
 
 ## Savings
 
@@ -31,7 +38,7 @@ Personal savings of approximately $17,000 USD (as of early 2026). Covers the Bos
 
 ## Upcoming Income
 
-- **Lyft internship** (Jun-Sep 2026): Backend SWE intern compensation, Mexico City
+- Lyft internship declined June 6, 2026
 
 ## Financial Goals
 

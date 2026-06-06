@@ -17,11 +17,14 @@ Daniel's mother and two sisters are all named Maria. Close relationship; family 
 ## Partner
 
 **Sara Alicia Aguirre Mumulmea**
+- Born 1992 (age 33-34)
 - Licenciatura en Literaturas Hispanicas (Universidad de Sonora)
-- Maestria en Estudios de Genero (UAQ), completed with honors
+- Maestria en Estudios de Genero (UAQ), completed with honors 2021
 - Runs Circularias: workshops, reading circle, gallery -- extending her thesis work into community practice
-- Based in Hermosillo area
-- Long-distance relationship (Sara in Hermosillo, Daniel in Cambridge)
+- Previously based in Hermosillo area
+- Moving in together in Mexico City (June 2026)
+- Daniel covers ~95% of shared expenses
+- Previously long-distance: Sara in Hermosillo, Daniel in Cambridge
 - Sara visited Cambridge Jan 12 -- Feb 11, 2026
 
 ## Close Circle
@@ -55,9 +58,9 @@ Daniel's mother and two sisters are all named Maria. Close relationship; family 
 | Sian Wilson | Signal processing | FNNDSC |
 | Caroline Schutz | Program coordinator | BCH |
 
-## Boston Social Context
+## Mexico City Social Context (June 2026)
 
-Limited social contact beyond housemates. No established friend group in Boston. The lab is small, highly technical, few people his age. Approximately 2.5 months remaining in Boston as of mid-March 2026 before moving to Mexico City for Lyft.
+New city. Living with Sara. No established friend group yet in CDMX. C1 office will be the primary social environment. Building a life here from scratch -- but this time not alone.
 
 ## Related
 

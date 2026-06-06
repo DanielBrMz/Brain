@@ -2,7 +2,7 @@
 title: "Second Brain — Master Index"
 type: moc
 created: 2026-03-19
-updated: 2026-04-27
+updated: 2026-06-06
 tags: [index, moc, navigation]
 ---
 
@@ -27,7 +27,7 @@ tags: [index, moc, navigation]
 | 010 | [[010-System/arch-overview\|System]] | Arch Linux machine — hardware, packages, services, maintenance |
 | 020 | [[020-Infrastructure/servers-index\|Infrastructure]] | Servers, networking, WireGuard, credentials |
 | 030 | [[030-Projects/projects-index\|Projects]] | Active and archived development projects |
-| 040 | [[040-Roles/roles-index\|Roles]] | Sr Full Stack (Sidepocket) + Research Engineer (BCH/HMS) |
+| 040 | [[040-Roles/roles-index\|Roles]] | Lead SWE (Capital One) + Sr Full Stack (Sidepocket) |
 | 050 | [[050-Knowledge/knowledge-index\|Knowledge]] | Reference topics, learning notes, how-tos |
 | 060 | [[060-Life/daniel-profile\|Life]] | Profile, goals, career, relationships, cultural life |
 | 070 | [[070-Accounts/accounts-index\|Accounts]] | Service accounts, subscriptions, credentials index |
@@ -57,21 +57,15 @@ tags: [index, moc, navigation]
 - [[030-Projects/sidepocket-monday-queue|Monday Queue — Action Items]]
 - [[030-Projects/sidepocket-q1-2026-summary|Q1 2026 Summary]]
 
-### Active Projects — BCH/HMS Research
-- [[030-Projects/fetenh-net|FetEnhNet — Fetal MRI Enhancement]] ← main hub (all sub-notes linked)
+### Completed — BCH/HMS Research (ended May 22, 2026)
+- [[030-Projects/fetenh-net|FetEnhNet — Fetal MRI Enhancement]]
 - [[030-Projects/victoria-hydro-model|Victoria's Hydrocephalus Model]] — ventricle segmentation (Dice 0.919)
-- [[030-Projects/BCH-Meeting-Minutes|BCH Meeting Minutes]] — weekly meeting log
+- [[030-Projects/BCH-Meeting-Minutes|BCH Meeting Minutes]]
 - [[030-Projects/fetenh-nesvor-rerun-plan|NeSVoR Re-Run & Inverse Alignment Plan]]
-- [[030-Projects/fetenh-session-2026-04-24|Session Summary Apr 23-24]]
-- [[030-Projects/fetenh-data-pipeline-plan|Data Pipeline Plan (Apr 23-24)]]
 - [[030-Projects/fetenh-data-inventory|Data Inventory]]
 - [[030-Projects/neuronscope|NeuronScope — Activation Sparsity Viz]]
-- [[030-Projects/sparse-slm|ActivSparse-SLM — Sparse LLM (Puentes)]]
 - [[030-Projects/bch-seg-pipeline|Segmentation Pipeline (8 steps)]]
 - [[030-Projects/bch-surface-pipeline|Surface Processing Pipeline]]
-
-### Active - Hackathon
-- [[030-Projects/medlens-hackprinceton|MedLens - HackPrinceton Spring 2026]] ← active
 
 ### Other Projects
 - [[030-Projects/sidepocket-endorser-cms|sp-endorser-cms — Endorser CMS]]
@@ -87,16 +81,18 @@ tags: [index, moc, navigation]
 - [[060-Life/daniel-profile|Profile — Daniel Barreras Meraz]]
 - [[060-Life/career-timeline|Career Timeline]]
 - [[060-Life/goals|Goals & Career Horizon]]
+- [[060-Life/habits|Habits & Patterns]]
+- [[060-Life/health|Health]]
 - [[060-Life/relationships|Relationships & Social World]]
 - [[060-Life/cultural-life|Cultural & Intellectual Life]]
 - [[060-Life/rancho-tres-marias|Rancho Tres Marias — Bacanora Venture]]
-- [[060-Life/finances|Finances]]
-- [[060-Life/job-search|Job Search & Interview Pipeline]]
-- [[060-Life/capital-one-onboarding|Capital One — Onboarding]] ← active
+- [[060-Life/finances|Finances]] — combined ~$197K/year (C1 + SP)
+- [[060-Life/capital-one-onboarding|Capital One — Onboarding]]
 
 ### Roles
-- [[040-Roles/sr-fullstack-sidepocket|Sr Full Stack — Sidepocket Inc]]
-- [[040-Roles/research-engineer-bch|Research Engineer — BCH/HMS FNNDSC]]
+- [[040-Roles/lead-swe-capital-one|Lead SWE — Capital One Mexico]] ← active
+- [[040-Roles/sr-fullstack-sidepocket|Sr Full Stack — Sidepocket Inc]] ← active
+- [[040-Roles/research-engineer-bch|Research Engineer — BCH/HMS FNNDSC]] ← completed May 2026
 - [[040-Roles/candidate-profile|Candidate Profile & Interview Tailoring]]
 
 ### Infrastructure

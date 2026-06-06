@@ -13,13 +13,13 @@ tags: [life, goals, career]
 ### Short Term (through 2026)
 - [ ] Maximize Harvard research output -- co-author papers if possible (target venues: MICCAI, IEEE)
 - [ ] Present at FNNDSC Spring 2026 Symposium (April 2026)
-- [ ] Complete Lyft internship successfully (Jun-Sep 2026, Mexico City, AV team)
+- [x] ~~Lyft internship~~ — declined June 6, 2026 (accepted Capital One Lead SWE instead)
 - [ ] Graduate from ITESM (December 2026)
 
 ### Medium Term (2026-2028)
 - [ ] PhD applications: MIT, Stanford, CMU for CS/AI -- OR senior industry positions at NVIDIA, Microsoft, Google, Meta
 - [ ] Visa strategy: F-1 for grad school or TN/H-1B for industry
-- [ ] Target compensation: $100K+ in this window
+- [x] Target compensation: $100K+ — achieved ($144K at 21)
 
 ### Long Term (2028-2035)
 - [ ] Research leadership role, $250K+ annually
@@ -31,19 +31,19 @@ tags: [life, goals, career]
 ## 2026 Goals
 
 ### Professional
-- [ ] Complete BCH appointment with strong research output (ends Jul 2026)
-- [ ] Succeed at Lyft internship (AV team, Mexico City)
+- [x] BCH appointment completed May 22, 2026
+- [x] Capital One Lead SWE — started May 25, $144K/year
 - [ ] Graduate ITESM (December 2026, online final semester)
-- [ ] Resolve Capital One Power Day outcome
+- [x] Capital One — accepted Lead SWE, $144K, started May 25
 
 ### Personal
-- [ ] Build local connections in remaining Boston time (~2.5 months as of Mar 2026)
+- [ ] Build local connections in Mexico City
 - [ ] Continue [[cultural-life|La Pechita]] engagement
 - [ ] Maintain [[relationships|relationship]] clarity with Sara
 
 ### Technical / Learning
 - [ ] Deepen computer vision / medical imaging expertise through FetEnhNet
-- [ ] Gain production AV systems experience at Lyft
+- [ ] Grow into Sr Lead / Staff track at Capital One
 - [ ] Strengthen distributed systems knowledge
 
 ---
