@@ -11,8 +11,8 @@ tags: [life, goals, career]
 ## Career Horizon
 
 ### Short Term (through 2026)
-- [ ] Maximize Harvard research output -- co-author papers if possible (target venues: MICCAI, IEEE)
-- [ ] Present at FNNDSC Spring 2026 Symposium (April 2026)
+- [ ] FetEnhNet manuscript -- leading Methods/Experiments draft, coordinating with Hyeokjin and Yair (target venues: MICCAI, IEEE)
+- [x] Presented at FNNDSC Spring 2026 Symposium (April 2026)
 - [x] ~~Lyft internship~~ — declined June 6, 2026 (accepted Capital One Lead SWE instead)
 - [ ] Graduate from ITESM (December 2026)
 

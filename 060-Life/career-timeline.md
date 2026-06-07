@@ -35,6 +35,8 @@ See also: [[daniel-profile|Profile]], [[goals|Career Goals]]
 - Harvard Medical School / Boston Children's Hospital, Boston, MA
 - Fetal MRI deep learning research under Dr. Kiho Im
 - BCH ID: 271443, Desk: LM6546.3, 6th Floor, Landmark Building
+- Continuing remotely: co-drafting manuscript, leading Methods and Experiments sections
+- Paper in progress with Kiho Im, Hyeokjin Kwon, Kyeong Ho Kim, Yair Beltran
 - Full details: [[../040-Roles/research-engineer-bch|Research Engineer Role Note]]
 
 ### Software Engineer Intern -- Oracle (Feb 2025 -- Aug 2025)
